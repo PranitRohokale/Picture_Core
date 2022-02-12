@@ -9,10 +9,9 @@ const Post = (props) => {
     <Card className="cardbox" style={{ width: '80%',height: '110%', transition: '0.3s ease-in', borderRadius: '8px', boxShadow: '1px 1px 1px 1px #dbd7d7'}}>
     <Card.Img className="icon_img" variant="top" alt="image" src={props.image} />
     <Card.Body>
-      <Card.Title>Card Title</Card.Title>
+      <Card.Title> {props.desc}</Card.Title>
       <Card.Text>
-        Some quick example text to build on the card title and make up the bulk of
-        the card's content.
+        {props.desc_text}
       </Card.Text>  
       {/* <Button variant="primary">Go somewhere</Button> */}
     </Card.Body>
