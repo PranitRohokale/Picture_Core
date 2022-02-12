@@ -5,5 +5,6 @@ function App() {
     </div>
   );
 }
+// starting frontend
 
 export default App;
