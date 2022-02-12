@@ -1,0 +1,21 @@
+.cardbox:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+.cardbox{
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: #674d94;
+}
+
+.icon_img{
+    padding: 10px 10px;
+    height: 51%;
+    width: 37% !important;
+    /* padding: 0px 100px; */
+    
+}

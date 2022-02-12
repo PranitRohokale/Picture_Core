@@ -1,0 +1,53 @@
+body{
+    background-color:#342056!important;
+}
+
+.home_container{
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-around;
+    height: 100vh;
+    color: white;
+}
+
+.heading{
+    margin-top:100px;
+}
+
+.title{
+    font-size: 3.4rem;
+}
+
+.subtitle{
+    font-size: 2rem;
+}
+
+.home_img{
+    margin-bottom: 100px;
+}
+
+.home_img{
+    margin-top:50px;
+}
+
+.btnn{
+    background-color: rgb(254, 243, 199);
+    color: rgb(146, 64, 14);
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    padding: 7px 25px;
+    border-radius:7px;
+    font-size: 1.5rem;
+}
+
+.card_container{
+    margin-left: 90px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 2px;
+  grid-row-gap: 70px;
+  /* grid-gap: 65px; */
+  justify-content: space-around;
+  
+}
