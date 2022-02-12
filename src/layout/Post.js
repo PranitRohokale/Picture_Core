@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
-import pic from '../download.png';
+// import Button from 'react-bootstrap/Button';
+// import pic from '../download.png';
 import './styles.css';
 
 const Post = (props) => {

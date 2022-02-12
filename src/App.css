@@ -1,16 +1,22 @@
+/* [role=navigation] {
+    overflow: auto !important
+} */
+
 body{
+    min-height: 100vh;
     background-color:#342056!important;
 }
 
 .home_container{
     margin-top: 50px;
     display: flex;
-    justify-content:space-around;
-    height: 100vh;
+    /* justify-content:space-around; */
+    /* height: 100vh; */
     color: white;
 }
 
 .heading{
+    margin-left: 6%;
     margin-top:100px;
 }
 
@@ -24,12 +30,15 @@ body{
 
 .home_img{
     margin-bottom: 100px;
-}
-
-.home_img{
+    height:475px ;
+    width:500px;
+    width:80%;
     margin-top:50px;
 }
 
+.hello{
+    margin-left: 10%;
+}
 .btnn{
     background-color: rgb(254, 243, 199);
     color: rgb(146, 64, 14);
@@ -51,3 +60,94 @@ body{
   justify-content: space-around;
   
 }
+
+@media only screen and (max-width: 950px) and (min-width: 700px){
+    .title{
+        font-size:2.5rem;
+    }
+    .subtitle{
+        font-size:1.3rem;
+    }
+    .btnn{
+        font-size:1rem;
+        padding: 5px 15px;
+        margin-right: 10px;
+        /* width: 44%; */
+    }
+    .home_img{
+        height:300px ;
+        width:315px;
+        margin-right: 15px;
+    }
+    .btnn{
+        font-size:0.8rem;
+        padding: 5px 10px;
+        width: 70%;
+    }
+    .hello{
+        margin-left: 13%;
+    }
+    .heading{
+        margin-left: 7%;
+    }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 526px) {
+    .title{
+        font-size:1.8rem;
+    }
+    .subtitle{
+        font-size:1rem;
+    }
+    .btnn{
+        font-size:0.8rem;
+        padding: 5px 10px;
+        width: 80%;
+    }
+    .home_img{
+        height:280px ;
+        width:280px;
+    }
+    .hello{
+        margin-left: 12%;
+    }
+    .heading{
+        margin-left: 4%;
+    }
+} 
+
+@media only screen and (max-width: 525px) and (min-width: 150px) {
+    .home_container{
+        display:block;
+    }
+    .btnn{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size:1rem;
+        padding: 5px 10px;
+        width: 40%;
+        margin: auto;
+    }
+    .title{
+        font-size:3rem;
+    }
+    .subtitle{
+        font-size:1.5rem;
+    }
+    .home_img{
+        height:100% ;
+        width:80%;
+    }
+    .hello{
+        margin:0px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .heading{
+        width:100%;
+        text-align:center;
+        margin: 0px;
+    }
+} 
