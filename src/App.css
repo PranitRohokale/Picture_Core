@@ -3,8 +3,8 @@
 } */
 
 body{
-    min-height: 100vh;
-    background-color:#342056!important;
+    min-height: 200vh !important;
+    background-color:#342056 !important;
 }
 
 .home_container{

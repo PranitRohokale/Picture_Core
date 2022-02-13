@@ -36,7 +36,7 @@ class Editor extends Component {
     render() {
         if (this.props.image) {
             return (
-                <div className="App">
+                <div className="App fixContainer" >
                     <div className="wrapper">
                         <div
                             className=" header"
@@ -68,7 +68,7 @@ class Editor extends Component {
                             </div>
                         </div>
 
-                        <div className="footer">
+                        <div className="footer" >
                             <Footer
                                 showCropCanvas={this.props.showCropCanvas}
                             />
