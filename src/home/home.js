@@ -1,5 +1,4 @@
 import pic from "../image/home.svg";
-import "../App.css";
 import Post from "../layout/Post";
 import "bootstrap/dist/css/bootstrap.css";
 import p1 from "../image/crop.png";
@@ -12,7 +11,8 @@ import editor from "../editor/editor";
 import { Link } from "react-router-dom";
 
 import React from "react";
-
+if (window?.location.pathname === '/')
+    require('./home.css')
 export default function home() {
   <div id="myHome">
     <div className="home_container">

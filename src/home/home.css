@@ -1,9 +1,6 @@
-/* [role=navigation] {
-    overflow: auto !important
-} */
-
 body{
-    background-color:#342056 !important;
+    background-color:#342056!important;
+    overflow: scroll;
 }
 
 .home_container{
@@ -59,6 +56,10 @@ body{
   justify-content: space-around;
   
 }
+.main{
+    min-height: 300vh;
+}
+
 
 @media only screen and (max-width: 950px) and (min-width: 700px){
     .title{
@@ -149,4 +150,4 @@ body{
         text-align:center;
         margin: 0px;
     }
-} 
+}
