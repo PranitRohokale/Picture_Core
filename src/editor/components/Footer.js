@@ -15,11 +15,11 @@ export default function Footer(props) {
                 {!props.showCropCanvas && <ScaleSlider />}
             </div>
 
-            <div className="right-panel">
+            {/* <div className="right-panel">
                 <a href="https://github.com/OnurErtugral" target="_blank">
                     FORK ME!
                 </a>
-            </div>
+            </div> */}
         </div>
     );
 }

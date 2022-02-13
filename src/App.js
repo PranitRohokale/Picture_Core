@@ -23,7 +23,7 @@ function App() {
           <img className="home_img" src={pic} alt="Home" height="475" width="500" />
         </div>
       </div>
-
+ 
         <div className="card_container" >
         <Post image={p1} desc="Crop" desc_text="Crop unwanted outer areas from a image. crop will  remove or adjust the outside edges of an image."/>
         <Post image={p4} desc="Resize" desc_text="Resize images by defining new height and width pixels.Change image dimensions to save space."/>

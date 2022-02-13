@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import ReactTooltip from "react-tooltip";
-import picture from '../../images/download.png';
+// import picture from '../../images/download.png';
 import "./sidebar.css";
 
 class Navbar extends Component {
@@ -31,8 +31,7 @@ class Navbar extends Component {
                     data-tip="Resize image"
                 >
                     {this.props.showResizeSection ? (
-                        <img src={picture}/>
-                        // <i style={{color:"#ffffff",height:"100px"}} className="fas fa-lg fa-compress-arrows-alt active" />
+                        <i className="fas fa-lg fa-compress-arrows-alt active" alt="Resize"/>
                     ) : (
                         <i className="fas fa-lg fa-compress-arrows-alt" />
                     )}
@@ -47,10 +46,10 @@ class Navbar extends Component {
                     }
                 >
                     {this.props.showCropCanvas ? (
-                        <i className="fas fa-lg fa-crop-alt active" />
-                    ) : (
-                        <i className="fas fa-lg fa-crop-alt" />
-                    )}
+                        <i className="fas fa-lg fa-font active" alt="Crop"/>
+                        ) : (
+                            <i className="fas fa-lg fa-font" />
+                        )}
                 </div>
 
                 <div
@@ -61,10 +60,10 @@ class Navbar extends Component {
                     }
                 >
                     {this.props.showSlider ? (
-                        <i className="fas fa-lg fa-sun active" />
-                    ) : (
-                        <i className="fas fa-lg fa-sun" />
-                    )}
+                         <i className="fas fa-lg fa-font active" alt="filters"/>
+                         ) : (
+                             <i className="fas fa-lg fa-font" />
+                         )}
                 </div>
 
                 <div
@@ -77,10 +76,10 @@ class Navbar extends Component {
                     }
                 >
                     {this.props.showRotateSection ? (
-                        <i className="fas fa-lg fa-sync-alt active" />
-                    ) : (
-                        <i className="fas fa-lg fa-sync-alt" />
-                    )}
+                       <i className="fas fa-lg fa-font active" alt="Rotate"/>
+                       ) : (
+                           <i className="fas fa-lg fa-font" />
+                       )}
                 </div>
 
                 <div
@@ -91,7 +90,7 @@ class Navbar extends Component {
                     }
                 >
                     {this.props.showTextField ? (
-                        <i className="fas fa-lg fa-font active" />
+                        <i className="fas fa-lg fa-font active" alt="Add Text"/>
                     ) : (
                         <i className="fas fa-lg fa-font" />
                     )}
