@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 import {connect} from "react-redux";
 import HTML5Backend from "react-dnd-html5-backend";
 import {DragDropContext} from "react-dnd";
-
-import "./editor.css";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Canvas from "./components/Canvas";
@@ -18,7 +16,7 @@ import RotateSection from "./components/RotateSection";
 import WelcomeScreen from "./components/modals/WelcomeScreen";
 import Footer from "./components/Footer";
 import CropSection from "./components/CropSection";
-
+import './editor.css'
 
 class Editor extends Component {
     constructor(props) {
